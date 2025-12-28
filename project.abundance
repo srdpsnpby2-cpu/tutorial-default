@@ -20,12 +20,77 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 10
+          "ioValue": 18
         }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.5583333333333333,
+      "y": 0.40342298288508555,
+      "uniqueID": "id-10",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Rotate",
+      "x": 0.6583333333333333,
+      "y": 0.40342298288508555,
+      "uniqueID": "id-16",
+      "ioValues": [
+        {
+          "name": "x-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Tag",
+      "x": 0.7583333333333333,
+      "y": 0.40342298288508555,
+      "uniqueID": "id-22",
+      "tags": [
+        ""
       ]
     }
   ],
-  "allConnectors": [],
+  "allConnectors": [
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-7",
+      "ap2ID": "id-10"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-10",
+      "ap2ID": "id-16"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-16",
+      "ap2ID": "id-22"
+    }
+  ],
   "unitsKey": "MM",
   "fileTypeVersion": 1,
   "filetypeVersion": 1
